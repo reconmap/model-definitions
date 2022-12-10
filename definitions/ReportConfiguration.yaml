@@ -1,0 +1,37 @@
+name: ReportConfiguration
+props:
+  - name: id
+    type: integer
+  - name: project_id
+    type: integer
+  - name: include_toc
+    type: boolean
+    default: true
+  - name: include_revisions_table
+    type: boolean
+    default: true
+  - name: include_team_bios
+    type: boolean
+    default: true
+  - name: include_findings_overview
+    type: boolean
+    default: true
+  - name: include_cover
+    type: string
+    default: "'default'"
+  - name: include_header
+    type: string
+    default: "'default'"
+  - name: include_footer
+    type: string
+    default: "'default'"
+  - name: custom_cover
+    type: string
+    nullable: true
+  - name: custom_header
+    type: string
+    nullable: true
+  - name: custom_footer
+    type: string
+    nullable: true
+
