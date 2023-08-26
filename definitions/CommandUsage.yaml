@@ -1,0 +1,31 @@
+name: CommandUsage
+props:
+  - name: id
+    type: integer
+    nullable: true
+  - name: creator_uid
+    type: integer
+    nullable: true
+  - name: description
+    type: string
+    nullable: true
+  - name: executable_type
+    type: string
+    default: "'custom'"
+    nullable: true
+  - name: executable_path
+    type: string
+    nullable: true
+  - name: docker_image
+    type: string
+    nullable: true
+  - name: arguments
+    type: string
+    nullable: true
+  - name: output_filename
+    type: string
+    nullable: true
+  - name: output_parser
+    type: string
+    nullable: true
+
