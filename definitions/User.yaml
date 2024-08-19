@@ -19,6 +19,10 @@ props:
     type: string
   - name: email
     type: string
+  - name: timezone
+    type: string
+  - name: preferences
+    type: any
   - name: role
     type: string
     nullable: true

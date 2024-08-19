@@ -4,11 +4,21 @@ props:
     type: integer
     nullable: true
     default: null
+  - name: insert_ts
+    type: string
+    nullable: true
+  - name: update_ts
+    type: string
+    nullable: true
   - name: name
     type: string
     default: "''"
   - name: url
     type: string
+    nullable: true
+    default: null
+  - name: contact_id
+    type: integer
     nullable: true
     default: null
   - name: contact_name

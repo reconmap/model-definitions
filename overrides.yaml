@@ -4,5 +4,5 @@ languages:
   php8:
     namespace: Reconmap\Models
   golang:
-    namespace: api
+    namespace: models
 

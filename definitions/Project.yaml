@@ -38,10 +38,4 @@ props:
   - name: vulnerability_metrics
     type: string
     nullable: true
-  - name: management_summary
-    type: string
-    nullable: true
-  - name: management_conclusion
-    type: string
-    nullable: true
 
