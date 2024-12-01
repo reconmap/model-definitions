@@ -19,6 +19,10 @@ props:
     type: boolean
     nullable: true
     default: true
+  - name: mfa_enabled
+    type: boolean
+    nullable: false
+    default: false
   - name: full_name
     type: string
   - name: short_bio
