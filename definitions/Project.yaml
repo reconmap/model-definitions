@@ -7,6 +7,9 @@ props:
   - name: creator_uid
     type: integer
     nullable: true
+  - name: service_provider_id
+    type: integer
+    nullable: true
   - name: client_id
     type: integer
     nullable: true

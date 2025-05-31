@@ -4,8 +4,12 @@ LOGGING?=INFO
 
 YAML=$(wildcard definitions/*.yaml)
 
+.PHONY: clean
+clean:
+	rm -f output/*
+
 .PHONY: all
-all: php-files ts-files go-files
+all: clean php-files ts-files go-files
 
 .PHONY: php-files
 php-files: $(subst .yaml,.php,$(YAML))

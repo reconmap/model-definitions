@@ -31,6 +31,10 @@ props:
   - name: status
     type: string
     default: "'todo'"
+  - name: duration_estimate
+    type: integer
+    nullable: true
+    default: null
   - name: due_date
     type: string
     nullable: true
