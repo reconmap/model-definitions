@@ -12,6 +12,14 @@ props:
     type: string
     nullable: true
     default: null
+  - name: project_id
+    type: integer
+    nullable: true
+    default: null
+  - name: type
+    type: string
+    default: "'password'"
+    comment: note, password, token, key
   - name: name
     type: string
     nullable: true
@@ -20,20 +28,8 @@ props:
     type: string
     nullable: true
     default: null
-  - name: reportable
-    type: boolean
-    nullable: true
-    default: false
   - name: note
     type: string
-    nullable: true
-    default: null
-  - name: type
-    type: string
-    default: "'password'"
-    comment: note, password, token, key
-  - name: project_id
-    type: integer
     nullable: true
     default: null
 
