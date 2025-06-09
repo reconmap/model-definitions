@@ -21,6 +21,10 @@ props:
   - name: arguments
     type: string
     nullable: true
+  - name: output_capturing_mode
+    type: string
+    nullable: false
+    default: "'none'"
   - name: output_filename
     type: string
     nullable: true
