@@ -23,8 +23,14 @@ props:
     type: boolean
     nullable: false
     default: false
+  - name: first_name
+    type: string
+  - name: last_name
+    type: string
   - name: full_name
     type: string
+    nullable: true
+    default: "''"
   - name: short_bio
     type: string
     nullable: true
